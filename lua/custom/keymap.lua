@@ -1,3 +1,8 @@
+
+
+vim.keymap.set('n', '<C-u>', '<C-u>zz', {noremap=true, silent = true})
+vim.keymap.set('n', '<C-d>', '<C-d>zz', {noremap=true, silent = true})
+
 -- Create a small module to hold our state and functions
 local JkToggle = {}
 
